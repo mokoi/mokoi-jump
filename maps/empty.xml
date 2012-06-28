@@ -1,0 +1,61 @@
+<map xmlns="http://mokoi.info/projects/mokoi">
+<settings>
+	<dimensions width="1" height="1" />
+	<color red="163" blue="241" green="207" mode="0" />
+</settings>
+<object value="box.png:1" type="sprite" >
+	<position x="72" y="312" w="560" h="16" z="0" r="0" f="0"/>
+	<color red="255" blue="255" green="255" alpha="255" />
+</object>
+<object value="box.png:1" type="sprite" >
+	<position x="392" y="248" w="144" h="16" z="0" r="0" f="0"/>
+	<color red="255" blue="255" green="255" alpha="255" />
+</object>
+<object value="box.png:1" type="sprite" >
+	<position x="8" y="368" w="176" h="16" z="0" r="0" f="0"/>
+	<color red="255" blue="255" green="255" alpha="255" />
+</object>
+<object value="box.png:1" type="sprite" >
+	<position x="232" y="352" w="16" h="96" z="0" r="0" f="0"/>
+	<color red="255" blue="255" green="255" alpha="255" />
+</object>
+<object value="box.png:1" type="sprite" >
+	<position x="192" y="168" w="16" h="128" z="0" r="0" f="0"/>
+	<color red="255" blue="255" green="255" alpha="255" />
+</object>
+<object value="box.png:2" type="sprite" >
+	<position x="232" y="264" w="32" h="16" z="0" r="0" f="0"/>
+	<color red="255" blue="255" green="255" alpha="255" />
+</object>
+<object value="box.png:2" type="sprite" >
+	<position x="400" y="168" w="80" h="16" z="0" r="0" f="0"/>
+	<color red="255" blue="255" green="255" alpha="255" />
+</object>
+<object value="box.png:1" type="sprite" >
+	<position x="480" y="168" w="16" h="80" z="0" r="0" f="0"/>
+	<color red="255" blue="255" green="255" alpha="255" />
+</object>
+<object value="box.png:3" type="sprite" >
+	<position x="347" y="295" w="32" h="16" z="0" r="0" f="0"/>
+	<color red="255" blue="255" green="255" alpha="255" />
+</object>
+<object value="Rectangle" type="rect" >
+	<position x="213" y="136" w="16" h="32" z="0" r="0" f="0"/>
+	<color red="255" blue="255" green="255" alpha="255" />
+	<setting key="mirror" value="false" />
+	<setting key="id" value="*" />
+	<entity value="jumper" />
+	<setting key="entity" value="jumper.mps" />
+	<setting key="global" value="false" />
+</object>
+<object value="input-images.png:axis" type="sprite" >
+	<position x="13" y="18" w="96" h="64" z="0" r="0" f="0"/>
+	<color red="255" blue="255" green="255" alpha="255" />
+	<setting key="player" value="0" />
+	<setting key="mirror" value="false" />
+	<setting key="id" value="*" />
+	<entity value="input-display" />
+	<setting key="entity" value="input-display.mps" />
+	<setting key="global" value="false" />
+</object>
+</map>
